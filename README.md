@@ -1,3 +1,5 @@
+![RelaxTemplates Banner](https://ravikisha.github.io/assets/relaxtemplates.jpg)
+
 # Relaxtemplates
 
 Relaxtemplates is a simplified, educational template engine designed to help developers understand the inner workings of template rendering. This project is not production-ready but instead serves as a hands-on exploration of template rendering with fundamental features commonly found in templating systems, such as variable substitution, control flow with conditionals, loops, callable functions, template inheritance, and includes.

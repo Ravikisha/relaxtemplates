@@ -5,7 +5,7 @@ from django.conf import settings
 from django.template import Context, Template as DjangoTemplate
 from django.template.loader import get_template
 from django import setup as django_setup
-from base import TemplateEngine as MicroTemplate
+from relaxtemplates import TemplateEngine as MicroTemplate
 
 # Define the template directory
 template_dir = os.path.join(os.path.dirname(__file__), 'templates')

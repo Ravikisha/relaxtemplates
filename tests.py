@@ -1,5 +1,5 @@
 import unittest
-from base import TemplateEngine
+from relaxtemplates import TemplateEngine
 
 
 class EachTests(unittest.TestCase):
