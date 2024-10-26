@@ -6,7 +6,7 @@ setup(
     description='A Python-based template engine that features variables, conditionals, loops, call, extends, includes, comments, and more, making it easy to create dynamic web pages.',
     author='Ravi Kishan',
     author_email='ravikishan63392@gmail.com',
-    url='https://github.com/ravikisha/relaxtemplates',
+    url='https://github.com/Ravikisha/relaxtemplates',
     license='MIT',
     packages=find_packages(),  # Automatically find packages in the same directory
     python_requires='>=3.8',

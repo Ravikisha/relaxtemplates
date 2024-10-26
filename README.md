@@ -2,6 +2,14 @@
 
 # Relaxtemplates
 
+<p float="left">
+<img src="https://img.shields.io/badge/Python-3.6%2B-blue" alt="Python 3.6+"> 
+<img src="https://img.shields.io/badge/PyPI-v24.2-blue" alt="PyPI v24.2">
+<img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version 1.0.0">
+<img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License"> 
+<img src="https://img.shields.io/badge/Status-Active-green" alt="Active Status">
+</p>
+
 Relaxtemplates is a simplified, educational template engine designed to help developers understand the inner workings of template rendering. This project is not production-ready but instead serves as a hands-on exploration of template rendering with fundamental features commonly found in templating systems, such as variable substitution, control flow with conditionals, loops, callable functions, template inheritance, and includes.
 
 ## Why Relaxtemplates?
