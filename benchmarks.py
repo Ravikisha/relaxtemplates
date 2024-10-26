@@ -43,15 +43,15 @@ def read_html(engine):
     return html
 
 # Read template contents for each engine
-microtemplates_html = read_html('microtemplates')
+relaxtemplates_html = read_html('relaxtemplates')
 django_html = read_html('django')
 jinja2_html = read_html('jinja2')
 jinja2_env = Environment(loader=FileSystemLoader(template_dir))
 
 
 # Benchmark functions for each engine
-def benchmark_microtemplates():
-    MicroTemplate(microtemplates_html).render(**context)
+def benchmark_relaxtemplates():
+    MicroTemplate(relaxtemplates_html).render(**context)
 
 def benchmark_django():
     DjangoTemplate(django_html).render(Context(context))
@@ -73,7 +73,7 @@ def benchmark_jinja2_env():
 # Benchmark execution
 if __name__ == '__main__':
     number = 10000
-    engines = ('microtemplates',  'django', 'django_default_loader','jinja2',  'jinja2_env')
+    engines = ('relaxtemplates',  'django', 'django_default_loader','jinja2',  'jinja2_env')
     setup = "from __main__ import %s" % ', '.join(map(lambda t: 'benchmark_' + t, engines))
     
     for engine in engines:

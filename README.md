@@ -12,6 +12,8 @@
 
 Relaxtemplates is a simplified, educational template engine designed to help developers understand the inner workings of template rendering. This project is not production-ready but instead serves as a hands-on exploration of template rendering with fundamental features commonly found in templating systems, such as variable substitution, control flow with conditionals, loops, callable functions, template inheritance, and includes.
 
+Download from PyPI: [PyPI - Relaxtemplates](https://pypi.org/project/relaxtemplates/)
+
 ## Why Relaxtemplates?
 
 Relaxtemplates was created to provide a playground for experimenting with templating features and to gain insight into template engine design. It showcases key templating principles and techniques while allowing flexibility for customizations and feature expansions.
@@ -153,7 +155,7 @@ While Relaxtemplates is a simple engine, benchmarks indicate it performs efficie
 
 | Template                | Runs       | Time Taken (ms) |
 |------------------------|------------|-----------------|
-| microtemplates         | 10,000     | 0.19            |
+| relaxtemplates         | 10,000     | 0.19            |
 | django                 | 10,000     | 0.39            |
 | django_default_loader  | 10,000     | 0.22            |
 | jinja2                 | 10,000     | 3.28            |
